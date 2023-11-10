@@ -7,7 +7,7 @@ public class Clock {
         System.out.println(seconds);
     }
 
-    //int型引数を3つ受け取るaddメソッドの定義（戻り値なし）
+    //int型引数を3つ受け取るgetSecondsメソッドの定義（戻り値あり）
     public static int getSeconds(int hours, int minutes, int seconds) {
         int result = 60 * 60 * hours + 60 * minutes + seconds;
         return result;
